@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+}
+
+header h1 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+#devotional-content h2 {
+    color: #3498db;
+    margin-bottom: 10px;
+}
+
+#devotional-content p {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+#devotional-content h3 {
+    color: #2980b9;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+ul#bible-references,
+ul#reflective-questions {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+ul#bible-references li,
+ul#reflective-questions li {
+    background-color: #ecf0f1;
+    border: 1px solid #bdc3c7;
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+}
+
+button#next-devotional {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button#next-devotional:hover {
+    background-color: #2980b9;
+}
